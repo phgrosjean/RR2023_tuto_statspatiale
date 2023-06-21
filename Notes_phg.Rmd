@@ -1,0 +1,16 @@
+---
+title: "Tutoriel données spatiales RR2023"
+output: html_notebook
+---
+
+## Intro
+
+-   Format conseillé de données pour la sauvegarde : gpkg (= SQLite spécial). Plus récent et riche que Shapefiles.
+
+-   Coordonnées EPGS
+
+-   Fonctions de {sf} utilisant [s2}. Fonctions `st_xxx()`
+
+-   On peut utiliser `plot()` de R de base
+
+-   Différents moteurs de carto dans R avec des avantages et inconvénients pour chaque.
